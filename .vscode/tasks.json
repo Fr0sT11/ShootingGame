@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Shooter_Game Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Shipping",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Shipping",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Shipping",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Test",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Test",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"Mac",
+				"Test",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Shipping",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Shipping",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Shipping",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Test",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Test",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_Game IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_Game IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_Game",
+				"IOS",
+				"Test",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_GameEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"Debug",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_GameEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"DebugGame",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooter_GameEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		},
+		{
+			"label": "Shooter_GameEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Shooter_GameEditor",
+				"Mac",
+				"Development",
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Volumes/Documents/UE_4.24"
+			}
+		}
+	]
+}

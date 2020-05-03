@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Shooter_Game (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Shooter_Game Mac Debug Build",
+			"program": "/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Volumes/Documents/UE_4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Shooter_Game (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Shooter_Game Mac DebugGame Build",
+			"program": "/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Volumes/Documents/UE_4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Shooter_Game (Development)",
+			"request": "launch",
+			"preLaunchTask": "Shooter_Game Mac Development Build",
+			"program": "/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
+			"args": [
+			],
+			"cwd": "/Volumes/Documents/UE_4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Shooter_Game (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Shooter_Game Mac Shipping Build",
+			"program": "/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Volumes/Documents/UE_4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Shooter_Game (Test)",
+			"request": "launch",
+			"preLaunchTask": "Shooter_Game Mac Test Build",
+			"program": "/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Volumes/Documents/UE_4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Shooter_GameEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Shooter_GameEditor Mac Debug Build",
+			"program": "/Volumes/Documents/UE_4.24/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject"
+			],
+			"cwd": "/Volumes/Documents/UE_4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Shooter_GameEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Shooter_GameEditor Mac DebugGame Build",
+			"program": "/Volumes/Documents/UE_4.24/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
+			"args": [
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject"
+			],
+			"cwd": "/Volumes/Documents/UE_4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Shooter_GameEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Shooter_GameEditor Mac Development Build",
+			"program": "/Volumes/Documents/UE_4.24/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject"
+			],
+			"cwd": "/Volumes/Documents/UE_4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Volumes/Documents/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Shooter_Game.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Volumes/Documents/UE_4.24"
+		}
+	]
+}

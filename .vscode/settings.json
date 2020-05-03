@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Content": true,
+		"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/.vscode": true,
+		"/Volumes/Documents/Anish/Computer Engineering/Shooter_Game/Intermediate": true
+	}
+}
